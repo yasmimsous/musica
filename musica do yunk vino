@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catálogo de Vídeo Musical</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+        }
+        h1 {
+            text-align: center;
+        }
+        .video {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            margin: 20px auto;
+            padding: 15px;
+            max-width: 600px;
+        }
+        iframe {
+            width: 100%;
+            height: 315px;
+        }
+        .description {
+            margin-top: 10px;
+        }
+        a {
+            color: #1a73e8;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Catálogo de Vídeo Musical</h1>
+
+    <div class="video">
+        <h2>Música 1</h2>
+        <iframe src="https://www.youtube.com/embed/vnSTJXj_apg" frameborder="0" allowfullscreen></iframe>
+        <div class="description">
+            <p>Assista ao vídeo da música 1. Não perca!</p>
+            <a href="https://www.youtube.com/watch?v=vnSTJXj_apg" target="_blank">Ver no YouTube</a>
+        </div>
+    </div>
+
+    <div class="video">
+        <h2>Música 2</h2>
+        <iframe src="https://www.youtube.com/embed/FGO4I-rzbx8" frameborder="0" allowfullscreen></iframe>
+        <div class="description">
+            <p>Confira a música 2 neste vídeo incrível!</p>
+            <a href="https://www.youtube.com/watch?v=FGO4I-rzbx8" target="_blank">Ver no YouTube</a>
+        </div>
+    </div>
+    
+</body>
+</html>
